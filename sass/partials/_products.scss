@@ -1,0 +1,25 @@
+.products {
+	background: $secondary;
+	width: 90%;
+	margin: 2% auto;
+	text-align: center;
+}
+.product {
+	display: flex !important;
+	justify-content: center;
+	&-item {
+		padding: 1% 10%;
+	}
+	&-btn {
+		background: $primary !important;
+		border: none !important;
+		font-size: 40px !important;
+		border-radius: 20px !important;
+	}
+}
+.card {
+	width: 100% !important;
+	&-body {
+		background: $secondary !important;
+	}
+}

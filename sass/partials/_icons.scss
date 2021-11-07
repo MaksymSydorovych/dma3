@@ -1,0 +1,21 @@
+.icons {
+	&-item {
+		width: 40px;
+	}
+	&-small {
+		display: none;
+	}
+}
+@media screen and (max-width: 500px) {
+	.icons {
+		&-item {
+			display: none;
+		}
+		&-small {
+			display: block;
+			padding: 1px;
+			border: 2px solid black;
+			width: 20%;
+		}
+	}
+}

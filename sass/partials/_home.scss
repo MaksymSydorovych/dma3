@@ -1,0 +1,36 @@
+.home {
+	background-image: url(/images/home.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 1000px;
+	width: 90%;
+
+	&-heading {
+		color: $secondary;
+		margin-top: 2%;
+		margin-left: 10%;
+	}
+	&-information {
+		background: $secondary;
+		border-radius: 30px;
+		padding: 10px;
+		width: 45%;
+		font-size: 30px !important;
+		margin-left: 50%;
+		margin-top: 15%;
+	}
+	&-button {
+		background: $primary;
+		border-radius: 20px;
+		border: 1px solid black;
+		color: $secondary;
+		font-size: 40px;
+		text-decoration: none;
+		margin-left: 50px;
+		padding: 1px;
+		&-a {
+			padding: 1px;
+		}
+	}
+}

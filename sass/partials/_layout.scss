@@ -1,0 +1,13 @@
+main {
+	background: repeating-linear-gradient(
+		180deg,
+		#46300d 10px,
+		#694e34 100px,
+		#492f04 100px
+	);
+	display: flex;
+	justify-content: center;
+}
+main a {
+	text-decoration: none;
+}

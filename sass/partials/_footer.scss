@@ -1,0 +1,19 @@
+footer {
+	background: rgb(105, 78, 52);
+	background: linear-gradient(
+		90deg,
+		rgba(105, 78, 52, 1) 0%,
+		rgba(105, 78, 52, 1) 44%,
+		rgba(73, 47, 4, 1) 78%
+	);
+	min-height: 50px;
+}
+.footer {
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+.footer a {
+	font-size: 20px;
+	color: $secondary;
+}
